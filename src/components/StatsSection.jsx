@@ -22,14 +22,15 @@ export default function StatsSection() {
         </div>
 
         {/* Text */}
-        <div className="absolute left-1/2 top-28 -translate-x-1/2 text-center">
-          <h2 className="max-w-xl text-2xl font-semibold text-white md:text-4xl">
-            Assisting over 15,000 job seekers find their dream positions.
+        <div className="absolute left-1/2 top-88 -translate-x-1/2 text-center">
+          <h2 className="max-w-xl text-2xl  text-white md:text-4xl">
+            Assisting over <span className='font-bold'>15,000</span> job seekers find their dream
+            positions.
           </h2>
         </div>
 
         {/* Cards */}
-        <div className="relative z-10 -mt-16 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+        <div className="relative z-10 -mt-140 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
           <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur-xl">
             <FiBriefcase className="text-white" />
             <h3 className="mt-8 text-5xl font-bold text-white">50K</h3>
