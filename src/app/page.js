@@ -1,7 +1,14 @@
-import Image from "next/image";
+import HeroSection from '@/components/HeroSection';
+import Navbar from '@/components/Navbar';
+import StatsSection from '@/components/StatsSection';
+import Image from 'next/image';
 
 export default function Home() {
   return (
-<h1>home page</h1>
+    <main className='bg-black'>
+      <Navbar />
+      <HeroSection />
+      <StatsSection />
+    </main>
   );
 }
